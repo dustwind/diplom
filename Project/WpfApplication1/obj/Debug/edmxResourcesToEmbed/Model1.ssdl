@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище bdBusModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="aBus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Longitude" Type="float" Nullable="false" />
+    <Property Name="Latitude" Type="float" Nullable="false" />
+    <Property Name="Speed" Type="float" />
+    <Property Name="Azimuth" Type="float" />
+    <Property Name="DateUpdate" Type="datetime" Nullable="false" />
+    <Property Name="Id_bus" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Big_Location">
+    <Key>
+      <PropertyRef Name="Id_big" />
+    </Key>
+    <Property Name="Id_big" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_koord1" Type="int" Nullable="false" />
+    <Property Name="id_koord2" Type="int" Nullable="false" />
+    <Property Name="length" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bz_day">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Days" Type="int" Nullable="false" />
+    <Property Name="Times" Type="int" Nullable="false" />
+    <Property Name="Location" Type="int" Nullable="false" />
+    <Property Name="Kol" Type="int" Nullable="false" />
+    <Property Name="Val" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bz_koeff">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Location" Type="int" Nullable="false" />
+    <Property Name="Koeff" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bz_week">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Days" Type="int" Nullable="false" />
+    <Property Name="Times" Type="int" Nullable="false" />
+    <Property Name="Location" Type="int" Nullable="false" />
+    <Property Name="Kol" Type="int" Nullable="false" />
+    <Property Name="Val" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bz_year">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Days" Type="int" Nullable="false" />
+    <Property Name="Times" Type="int" Nullable="false" />
+    <Property Name="Location" Type="int" Nullable="false" />
+    <Property Name="Kol" Type="int" Nullable="false" />
+    <Property Name="Val" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sBuses">
+    <Key>
+      <PropertyRef Name="nom" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_marsh" Type="int" />
+    <Property Name="nom" Type="int" Nullable="false" />
+    <Property Name="marka_ts" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="sHolidays">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateHolidays" Type="date" Nullable="false" />
+    <Property Name="TypeDay" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sKoord_point">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Longitude" Type="float" />
+    <Property Name="Latitude" Type="float" />
+  </EntityType>
+  <EntityType Name="sLocation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_point1" Type="int" Nullable="false" />
+    <Property Name="Id_point2" Type="int" Nullable="false" />
+    <Property Name="Id_name_location" Type="int" />
+    <Property Name="length" Type="float" />
+    <Property Name="azimuth" Type="float" />
+    <Property Name="id_big" Type="int" />
+  </EntityType>
+  <EntityType Name="sLocation_Name">
+    <Key>
+      <PropertyRef Name="Id_Location_Name" />
+    </Key>
+    <Property Name="Id_Location_Name" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Location_Name" Type="nchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sMarhList">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Location" Type="int" Nullable="false" />
+    <Property Name="Id_Marsh" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sMarshruts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_marshrut" Type="nvarchar" MaxLength="10" />
+    <Property Name="type" Type="int" />
+    <Property Name="num" Type="int" />
+  </EntityType>
+  <EntityType Name="sName_to_ost">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idName" Type="int" />
+    <Property Name="idOst" Type="int" />
+  </EntityType>
+  <EntityType Name="sOst_name">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_ost" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="sOstnovkis">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idKoord" Type="int" />
+    <Property Name="idMarsh" Type="int" />
+    <Property Name="type" Type="int" />
+  </EntityType>
+  <EntityType Name="Statist">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sIP" Type="nchar" MaxLength="15" Nullable="false" />
+    <Property Name="dDate" Type="date" Nullable="false" />
+    <Property Name="iCount" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_big">
+    <End Role="Big_Location" Type="Self.Big_Location" Multiplicity="0..1" />
+    <End Role="sLocation" Type="Self.sLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Big_Location">
+        <PropertyRef Name="Id_big" />
+      </Principal>
+      <Dependent Role="sLocation">
+        <PropertyRef Name="id_big" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_big_koord1">
+    <End Role="sKoord_point" Type="Self.sKoord_point" Multiplicity="1" />
+    <End Role="Big_Location" Type="Self.Big_Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKoord_point">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Big_Location">
+        <PropertyRef Name="id_koord1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_big_koord2">
+    <End Role="sKoord_point" Type="Self.sKoord_point" Multiplicity="1" />
+    <End Role="Big_Location" Type="Self.Big_Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKoord_point">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Big_Location">
+        <PropertyRef Name="id_koord2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_bus_marshrut">
+    <End Role="sMarshruts" Type="Self.sMarshruts" Multiplicity="0..1" />
+    <End Role="sBuses" Type="Self.sBuses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sMarshruts">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sBuses">
+        <PropertyRef Name="id_marsh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_location_name">
+    <End Role="sLocation_Name" Type="Self.sLocation_Name" Multiplicity="0..1" />
+    <End Role="sLocation" Type="Self.sLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sLocation_Name">
+        <PropertyRef Name="Id_Location_Name" />
+      </Principal>
+      <Dependent Role="sLocation">
+        <PropertyRef Name="Id_name_location" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_location_poin1">
+    <End Role="sKoord_point" Type="Self.sKoord_point" Multiplicity="1" />
+    <End Role="sLocation" Type="Self.sLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKoord_point">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sLocation">
+        <PropertyRef Name="Id_point1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_location_poin2">
+    <End Role="sKoord_point" Type="Self.sKoord_point" Multiplicity="1" />
+    <End Role="sLocation" Type="Self.sLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKoord_point">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sLocation">
+        <PropertyRef Name="Id_point2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MarhList_Location">
+    <End Role="sLocation" Type="Self.sLocation" Multiplicity="1" />
+    <End Role="sMarhList" Type="Self.sMarhList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sLocation">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="sMarhList">
+        <PropertyRef Name="Id_Location" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MarhList_Marsh">
+    <End Role="sMarshruts" Type="Self.sMarshruts" Multiplicity="1" />
+    <End Role="sMarhList" Type="Self.sMarhList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sMarshruts">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sMarhList">
+        <PropertyRef Name="Id_Marsh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_name_to_ost_ost_name">
+    <End Role="sOst_name" Type="Self.sOst_name" Multiplicity="0..1" />
+    <End Role="sName_to_ost" Type="Self.sName_to_ost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sOst_name">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sName_to_ost">
+        <PropertyRef Name="idName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_name_to_ost_ostnovki">
+    <End Role="sOstnovkis" Type="Self.sOstnovkis" Multiplicity="0..1" />
+    <End Role="sName_to_ost" Type="Self.sName_to_ost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sOstnovkis">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sName_to_ost">
+        <PropertyRef Name="idOst" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ostnovki_koord_point">
+    <End Role="sKoord_point" Type="Self.sKoord_point" Multiplicity="0..1" />
+    <End Role="sOstnovkis" Type="Self.sOstnovkis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKoord_point">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sOstnovkis">
+        <PropertyRef Name="idKoord" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ostnovki_marshruts">
+    <End Role="sMarshruts" Type="Self.sMarshruts" Multiplicity="0..1" />
+    <End Role="sOstnovkis" Type="Self.sOstnovkis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sMarshruts">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sOstnovkis">
+        <PropertyRef Name="idMarsh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище bdBusModelContainer">
+    <EntitySet Name="aBus" EntityType="Self.aBus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Big_Location" EntityType="Self.Big_Location" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bz_day" EntityType="Self.bz_day" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bz_koeff" EntityType="Self.bz_koeff" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bz_week" EntityType="Self.bz_week" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bz_year" EntityType="Self.bz_year" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sBuses" EntityType="Self.sBuses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sHolidays" EntityType="Self.sHolidays" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sKoord_point" EntityType="Self.sKoord_point" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sLocation" EntityType="Self.sLocation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sLocation_Name" EntityType="Self.sLocation_Name" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sMarhList" EntityType="Self.sMarhList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sMarshruts" EntityType="Self.sMarshruts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sName_to_ost" EntityType="Self.sName_to_ost" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sOst_name" EntityType="Self.sOst_name" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sOstnovkis" EntityType="Self.sOstnovkis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Statist" EntityType="Self.Statist" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_big" Association="Self.fk_big">
+      <End Role="Big_Location" EntitySet="Big_Location" />
+      <End Role="sLocation" EntitySet="sLocation" />
+    </AssociationSet>
+    <AssociationSet Name="fk_big_koord1" Association="Self.fk_big_koord1">
+      <End Role="sKoord_point" EntitySet="sKoord_point" />
+      <End Role="Big_Location" EntitySet="Big_Location" />
+    </AssociationSet>
+    <AssociationSet Name="fk_big_koord2" Association="Self.fk_big_koord2">
+      <End Role="sKoord_point" EntitySet="sKoord_point" />
+      <End Role="Big_Location" EntitySet="Big_Location" />
+    </AssociationSet>
+    <AssociationSet Name="FK_bus_marshrut" Association="Self.FK_bus_marshrut">
+      <End Role="sMarshruts" EntitySet="sMarshruts" />
+      <End Role="sBuses" EntitySet="sBuses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_location_name" Association="Self.FK_location_name">
+      <End Role="sLocation_Name" EntitySet="sLocation_Name" />
+      <End Role="sLocation" EntitySet="sLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_location_poin1" Association="Self.FK_location_poin1">
+      <End Role="sKoord_point" EntitySet="sKoord_point" />
+      <End Role="sLocation" EntitySet="sLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_location_poin2" Association="Self.FK_location_poin2">
+      <End Role="sKoord_point" EntitySet="sKoord_point" />
+      <End Role="sLocation" EntitySet="sLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MarhList_Location" Association="Self.FK_MarhList_Location">
+      <End Role="sLocation" EntitySet="sLocation" />
+      <End Role="sMarhList" EntitySet="sMarhList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MarhList_Marsh" Association="Self.FK_MarhList_Marsh">
+      <End Role="sMarshruts" EntitySet="sMarshruts" />
+      <End Role="sMarhList" EntitySet="sMarhList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_name_to_ost_ost_name" Association="Self.FK_name_to_ost_ost_name">
+      <End Role="sOst_name" EntitySet="sOst_name" />
+      <End Role="sName_to_ost" EntitySet="sName_to_ost" />
+    </AssociationSet>
+    <AssociationSet Name="FK_name_to_ost_ostnovki" Association="Self.FK_name_to_ost_ostnovki">
+      <End Role="sOstnovkis" EntitySet="sOstnovkis" />
+      <End Role="sName_to_ost" EntitySet="sName_to_ost" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ostnovki_koord_point" Association="Self.FK_ostnovki_koord_point">
+      <End Role="sKoord_point" EntitySet="sKoord_point" />
+      <End Role="sOstnovkis" EntitySet="sOstnovkis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ostnovki_marshruts" Association="Self.FK_ostnovki_marshruts">
+      <End Role="sMarshruts" EntitySet="sMarshruts" />
+      <End Role="sOstnovkis" EntitySet="sOstnovkis" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

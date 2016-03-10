@@ -1,0 +1,255 @@
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Виталий\Documents\Visual Studio 2012\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\obj\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\obj\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\bin\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\bin\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\bin\Debug\EntityFramework.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\bin\Debug\EntityFramework.xml
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\obj\Debug\MainWindow.baml
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\obj\Debug\MainWindow.g.cs
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\obj\Debug\App.g.cs
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\WpfApplication1 (маршрутки, локации + %)\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\obj\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\obj\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\bin\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\bin\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\bin\Debug\EntityFramework.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\bin\Debug\EntityFramework.xml
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\obj\Debug\MainWindow.baml
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\obj\Debug\MainWindow.g.cs
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\obj\Debug\App.g.cs
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+D:\SkyDrive\ПИТ\Дисертация\программа\Автобусы\parserKnowledgeBase\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\obj\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\obj\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\obj\Debug\MainWindow.baml
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\obj\Debug\MainWindow.g.cs
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\obj\Debug\App.g.cs
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\bin\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\bin\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\bin\Debug\EntityFramework.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\bin\Debug\EntityFramework.xml
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций)\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\EntityFramework.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\EntityFramework.xml
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\MainWindow.baml
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\MainWindow.g.cs
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\App.g.cs
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+D:\SkyDrive\ПИТ\Дисертация\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\EntityFramework.dll
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\EntityFramework.xml
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\MainWindow.baml
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\MainWindow.g.cs
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\App.g.cs
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\parserKnowledgeBase (оторбажение локаций и ТС)\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.pdb
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.dll
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.xml
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.baml
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.g.cs
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\App.g.cs
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+D:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.dll
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.xml
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.baml
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\App.g.cs
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\SkyDrive\ПИТ\Дисертация\Автобусы\программа\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\Администратор\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Администратор\Desktop\Учеба\3 курс\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Администратор\Desktop\Учеба\3 курс\БД\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\Vitaly\OneDrive\ПИТ\Лабы\БД - ПИ121\КР Павлова Комивеажора\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Vitaly\OneDrive\ПИТ\Дисертация\Автобусы\Новая версия\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+E:\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+E:\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.exe
+E:\Desktop\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.pdb
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.exe
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.pdb
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\App.g.cs
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.exe
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\WpfApplication1.pdb
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.dll
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\EntityFramework.xml
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\ru\EntityFramework.resources.dll
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.baml
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\MainWindow.g.cs
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\Window1.baml
+E:\Desktop\diplom\WPF оторбажение локаций и ТС\WpfApplication1\obj\Debug\Window1.g.cs
+E:\uni\Бакалавр\на диск\Project\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+E:\uni\Бакалавр\на диск\Project\WpfApplication1\obj\Debug\WpfApplication1.exe
+E:\uni\Бакалавр\на диск\Project\WpfApplication1\obj\Debug\WpfApplication1.pdb
+E:\Desktop\Новая папка\на диск\Project\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+E:\Desktop\Новая папка\на диск\Project\WpfApplication1\obj\Debug\WpfApplication1.exe
+E:\Desktop\Новая папка\на диск\Project\WpfApplication1\obj\Debug\WpfApplication1.pdb

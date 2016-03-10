@@ -1,0 +1,55 @@
+﻿<Window x:Class="WpfApplication1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Отчет" Height="300" Width="490">
+    <Grid>
+        <Grid>
+            <DataGrid Name="gridResult" SelectionMode="Extended"  AutoGenerateColumns="False" Margin="10,10,10,35">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Алгоритм" Binding="{Binding Path=name_algoritm}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="{x:Type TextBlock}">
+                                <Setter Property="Background" Value="{Binding Path=colour}"></Setter>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="Время работы" Binding="{Binding Path=time_work}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="{x:Type TextBlock}">
+                                <Setter Property="Background" Value="{Binding Path=colour}"></Setter>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="Расстояние, м" Binding="{Binding Path=length}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="{x:Type TextBlock}">
+                                <Setter Property="Background" Value="{Binding Path=colour}"></Setter>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="Временной срез" Binding="{Binding Path=t}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="{x:Type TextBlock}">
+                                <Setter Property="Background" Value="{Binding Path=colour}"></Setter>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="Расчетное время" Binding="{Binding Path=time_motion}">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="{x:Type TextBlock}">
+                                <Setter Property="Background" Value="{Binding Path=colour}"></Setter>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <!--
+                    <DataGridTextColumn Header="Точка А" Binding="{Binding Path=a}"/>
+                    <DataGridTextColumn Header="Точка В" Binding="{Binding Path=b}"/>
+                    -->  
+                    
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button Name="btn_view_way" Content="Отобразить" Click="draw_way" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Center" Width="75"/>
+
+        </Grid>
+    </Grid>
+</Window>

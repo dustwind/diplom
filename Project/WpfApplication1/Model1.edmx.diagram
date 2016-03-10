@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e62c0a5b367e4f3084d491b4ea6ff651" Name="Диаграмма1" ZoomLevel="86">
+        <EntityTypeShape EntityType="bdBusModel.aBus" Width="1.5" PointX="10.25" PointY="5.875" />
+        <EntityTypeShape EntityType="bdBusModel.Big_Location" Width="1.5" PointX="2.5" PointY="6.75" />
+        <EntityTypeShape EntityType="bdBusModel.bz_day" Width="1.5" PointX="10.375" PointY="3.25" />
+        <EntityTypeShape EntityType="bdBusModel.bz_koeff" Width="1.5" PointX="12" PointY="9.25" />
+        <EntityTypeShape EntityType="bdBusModel.bz_week" Width="1.5" PointX="12.125" PointY="3.25" />
+        <EntityTypeShape EntityType="bdBusModel.bz_year" Width="1.5" PointX="13.875" PointY="3.375" />
+        <EntityTypeShape EntityType="bdBusModel.sBuses" Width="1.5" PointX="6.125" PointY="5.125" />
+        <EntityTypeShape EntityType="bdBusModel.sHolidays" Width="1.5" PointX="13.875" PointY="9.25" />
+        <EntityTypeShape EntityType="bdBusModel.sKoord_point" Width="1.5" PointX="0.5" PointY="8.125" />
+        <EntityTypeShape EntityType="bdBusModel.sLocation" Width="1.5" PointX="4.375" PointY="7.5" />
+        <EntityTypeShape EntityType="bdBusModel.sLocation_Name" Width="1.5" PointX="4.375" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="bdBusModel.sMarhList" Width="1.5" PointX="8.125" PointY="6.75" />
+        <EntityTypeShape EntityType="bdBusModel.sMarshruts" Width="1.5" PointX="8" PointY="3.125" />
+        <EntityTypeShape EntityType="bdBusModel.sName_to_ost" Width="1.5" PointX="3.125" PointY="2.75" />
+        <EntityTypeShape EntityType="bdBusModel.sOst_name" Width="1.5" PointX="5.5" PointY="2.875" />
+        <EntityTypeShape EntityType="bdBusModel.sOstnovkis" Width="1.5" PointX="0.5" PointY="3.125" />
+        <EntityTypeShape EntityType="bdBusModel.Statist" Width="1.5" PointX="10.25" PointY="9" />
+        <AssociationConnector Association="bdBusModel.fk_big" />
+        <AssociationConnector Association="bdBusModel.fk_big_koord1" />
+        <AssociationConnector Association="bdBusModel.fk_big_koord2" />
+        <AssociationConnector Association="bdBusModel.FK_bus_marshrut" />
+        <AssociationConnector Association="bdBusModel.FK_location_poin1" />
+        <AssociationConnector Association="bdBusModel.FK_location_poin2" />
+        <AssociationConnector Association="bdBusModel.FK_ostnovki_koord_point" />
+        <AssociationConnector Association="bdBusModel.FK_location_name" />
+        <AssociationConnector Association="bdBusModel.FK_MarhList_Location" />
+        <AssociationConnector Association="bdBusModel.FK_MarhList_Marsh" />
+        <AssociationConnector Association="bdBusModel.FK_ostnovki_marshruts" />
+        <AssociationConnector Association="bdBusModel.FK_name_to_ost_ost_name" />
+        <AssociationConnector Association="bdBusModel.FK_name_to_ost_ostnovki" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

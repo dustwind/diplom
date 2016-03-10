@@ -1,0 +1,245 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:bm="using:Bing.Maps"
+        xmlns:my="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        Title="Анализ эффективности алгоритмов поиска оптимального пути в условиях города" Height="600" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock Name="txtSelect"/>
+        <my:Map Mode="Road" Grid.Row="1" CredentialsProvider="Ab72djshdjhHHj_hjdhsj77368jduiwnT0dhhd899dk" x:Name="map1" Grid.Column="0" Culture="ru-ru" Center="55.349,86.108" ZoomLevel="13.6" Loaded="map1_Loaded" MouseDown="map1_MouseDown" Margin="0,0,0,-54"/>
+        
+        <StackPanel Orientation="Vertical" Grid.Row="1" Width="200" HorizontalAlignment="Left">
+            
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Button Content="Очистить" Click="Button_clear"/>
+                <Button Grid.Column="1" Content="Тип карты" Click="Button_Type_map"/>
+                <Button Grid.Column="0" Grid.Row="1" Content="Все локации" Click="Button_Click_Enable_Location"/>
+                <Button Grid.Column="1" Grid.Row="1" Content="Все точки" Click="Button_all_point"/>
+                <Button Grid.Column="1" Grid.Row="2" Content="Большие локации" Click="Button_Click_Enable_Location2"/>
+                <Button Grid.Column="0" Grid.Row="2" Content="Отчет" Click="Report_open" />
+
+            </Grid>
+            <StackPanel Visibility="Collapsed">
+                <TextBlock Text="Работа с маршрутами" HorizontalAlignment="Center" Foreground="Red" FontSize="14"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" Content="Формировать" Click="Button_CreateMarsh" />
+                    <Button Grid.Column="1" Content="Положение ТС" Click="Button_Find_TC" />
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Маршрут:" Foreground="Red" FontSize="14" VerticalAlignment="Center"/>
+                    <ComboBox Grid.Column="1" Name="cbMarsh">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Path=name_marshrut}"/>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </Grid>
+            </StackPanel>
+            <StackPanel Visibility="Collapsed">
+                <TextBlock Text="Работа с  локациями" HorizontalAlignment="Center" Foreground="Red" FontSize="14"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" Content="Создать" Click="Button_create_location"/>
+                    <Button Grid.Column="1" Content="Удалить" Click="Button_delete_location"/>
+                </Grid>
+            </StackPanel>
+            <StackPanel Visibility="Collapsed">
+                <TextBlock Text="Работа с точками" HorizontalAlignment="Center" Foreground="Red" FontSize="14"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" Content="Создать" Click="Button_create_point"/>
+                    <Button Grid.Column="1" Content="Удалить" Click="Button_delete_point"/>
+                </Grid>
+            </StackPanel>
+            <StackPanel Visibility="Collapsed">
+                <TextBlock Text="Работа с остановками" HorizontalAlignment="Center" Foreground="Red" FontSize="14"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.ColumnSpan="2" Content="Отобразить точки и остановки"/>
+                    <!--Показывать точки без остановок желтыми, а с остановками -> зелёными
+                    при наведении отображать название остановок. при удалении всех точек -> остановку удалять
+                    удаление при выбранной кнопки по точкам, 
+                    добавление при нажатии - название, затем выбор нужных точек или
+                    при одном нажатии добавление в списко остановки, при двойном - запрашивать название остановки-->
+                    <Button Grid.Row="1" Grid.Column="0" Content="Добавить"/>
+                    <Button Grid.Row="1" Grid.Column="1" Content="Удалить"/>
+                </Grid>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="Работа базой знаний" HorizontalAlignment="Center" Foreground="Red" FontSize="14"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Column="0" Grid.Row="0" Content="Коэффециенты" Click="Button_koeff"/>
+                    
+                    <Button Grid.Column="1" Grid.Row="0" Content="" Click="Button_speed_update" HorizontalAlignment="Right" Width="30" Height="22" VerticalAlignment="Top" Visibility="Hidden"/>
+                    
+                    <ComboBox Grid.Column="1" Grid.Row="0" Name="cbTime" SelectionChanged="cbTime_SelectionChanged" Width="100" HorizontalAlignment="Left">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="25"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{Binding Path=timeInt}"/>
+                                    <TextBlock Grid.Column="1" Text="{Binding Path=timeString}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                    <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0">
+                        <RadioButton Name="rbTypeDay0" Content="Будни" Tag="0" IsChecked="True" Checked="select_type_day_Checked"/>
+                        <RadioButton Name="rbTypeDay1" Content="Предвыходные" Tag="1" Checked="select_type_day_Checked"/>
+                        <RadioButton Name="rbTypeDay2" Content="Выходные" Tag="2" Checked="select_type_day_Checked"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="1">
+                        <RadioButton Content="Дифференцированная" Tag="0" Checked="srez_Checked"/>
+                        <RadioButton Content="Дневная" Tag="1" Checked="srez_Checked"/>
+                        <RadioButton Content="Месячная" Tag="2" Checked="srez_Checked"/>
+                        <RadioButton Content="Годовая" Tag="3" IsChecked="True" Checked="srez_Checked"/>
+                    </StackPanel>
+                    <!--кнопка обновить. переключатель типа дня и переключатель дневной/интегрированный-->
+                </Grid>
+            </StackPanel>
+
+            <StackPanel Visibility="Collapsed">
+                <TextBlock Text="Прогноз прибытия ТС" HorizontalAlignment="Center" Foreground="Red" FontSize="14"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Column="0" Grid.Row="0" Content="Выбор остановок" Click="Button_select_points"/>
+                    <Button Grid.Column="1" Grid.Row="0" Content="Прогноз" Click="Button_bus_prognoz"/>
+                    <ScrollViewer Grid.ColumnSpan="2" Grid.Row="1" MinHeight="50">
+                        <ListBox Name="lbBus" SelectionChanged="lbBus_SelectionChanged">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="30"/>
+                                            <ColumnDefinition Width="65"/>
+                                            <ColumnDefinition Width="65"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="{Binding Path=Marsh.name}" Grid.Column="0"/>
+                                        <TextBlock Text="{Binding Path=AtPointA}" Grid.Column="1"/>
+                                        <TextBlock Text="{Binding Path=AtPointB}" Grid.Column="2"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </ScrollViewer>
+                    <!--
+                    <ProgressBar Grid.Row="2" Name="pbMarsh" Grid.ColumnSpan="2" Height="15" Maximum="100" Minimum="0" Margin="3"/>
+                    <ProgressBar Grid.Row="3" Name="pbStep" Grid.ColumnSpan="2" Height="15" Maximum="5" Minimum="0" Margin="3"/>
+                    <ProgressBar Grid.Row="4" Name="pbBus" Grid.ColumnSpan="2" Height="15" Maximum="100" Minimum="0" Margin="3"/>
+                    -->
+                </Grid>
+            </StackPanel>
+
+            <!--
+            <StackPanel>
+                <TextBlock Text="Большие локации" HorizontalAlignment="Center" Foreground="Red" FontSize="14"/>
+                <Button Content="Создание новых локаций" Click="Button_create_big_location"/>
+            </StackPanel>
+            -->
+            <StackPanel>
+                <TextBlock Text="Поиск пути" HorizontalAlignment="Center" Foreground="Red" FontSize="14"/>
+                <Button Content="Выбор точек" Click="Button_select_points"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Расстояние" Grid.Column="0" Grid.Row="0" Foreground="Red"/>
+                    <TextBlock Text="Время" Grid.Column="1" Grid.Row="0" Foreground="Red"/>
+                    
+                    <Button Grid.Column="0" Grid.Row="1" Content="Муравьиный" Click="Button_ant_point" Height="20" VerticalAlignment="Bottom"/>
+                    <Button Grid.Column="0" Grid.Row="2" Content="Дейкстра" Click="Button_dijkstra"/>
+                    <Button Grid.Column="0" Grid.Row="3" Content="А*" Click="Button_algoritm_a"/>
+                    <Button Grid.Column="0" Grid.Row="4" Content="В ширину" Click="Button_algoritm_width"/>
+                    <Button Grid.Column="0" Grid.Row="5" Content="В глубину" Click="Button_algoritm_depth" />
+
+                    <Button Grid.Column="1" Grid.Row="1" Content="Муравьиный" Click="Button_ant_point_time" Height="20" VerticalAlignment="Bottom"/>
+                    <Button Grid.Column="1" Grid.Row="2" Content="Дейкстра" Click="Button_dijkstra_time"/>
+                    <Button Grid.Column="1" Grid.Row="3" Content="А*" Click="Button_algoritm_a_time"/>
+
+
+                    <ProgressBar Grid.Row="10" Name="pbMarsh" Grid.ColumnSpan="2" Height="15" Maximum="100" Minimum="0" Margin="3"/>
+                    <ProgressBar Grid.Row="11" Name="pbStep" Grid.ColumnSpan="2" Height="15" Maximum="5" Minimum="0" Margin="3"/>
+                    <ProgressBar Grid.Row="12" Name="pbBus" Grid.ColumnSpan="2" Height="15" Maximum="100" Minimum="0" Margin="3"/>
+                </Grid>
+                
+                
+                <!--<Button Content="Муравьи локации" Click="Button_ant_location"/>-->
+
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bdBusModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="bdBusEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="aBus" EntityType="bdBusModel.aBus" />
+    <EntitySet Name="Big_Location" EntityType="bdBusModel.Big_Location" />
+    <EntitySet Name="bz_day" EntityType="bdBusModel.bz_day" />
+    <EntitySet Name="bz_koeff" EntityType="bdBusModel.bz_koeff" />
+    <EntitySet Name="bz_week" EntityType="bdBusModel.bz_week" />
+    <EntitySet Name="bz_year" EntityType="bdBusModel.bz_year" />
+    <EntitySet Name="sBuses" EntityType="bdBusModel.sBuses" />
+    <EntitySet Name="sHolidays" EntityType="bdBusModel.sHolidays" />
+    <EntitySet Name="sKoord_point" EntityType="bdBusModel.sKoord_point" />
+    <EntitySet Name="sLocation" EntityType="bdBusModel.sLocation" />
+    <EntitySet Name="sLocation_Name" EntityType="bdBusModel.sLocation_Name" />
+    <EntitySet Name="sMarhList" EntityType="bdBusModel.sMarhList" />
+    <EntitySet Name="sMarshruts" EntityType="bdBusModel.sMarshruts" />
+    <EntitySet Name="sName_to_ost" EntityType="bdBusModel.sName_to_ost" />
+    <EntitySet Name="sOst_name" EntityType="bdBusModel.sOst_name" />
+    <EntitySet Name="sOstnovkis" EntityType="bdBusModel.sOstnovkis" />
+    <EntitySet Name="Statist" EntityType="bdBusModel.Statist" />
+    <AssociationSet Name="fk_big" Association="bdBusModel.fk_big">
+      <End Role="Big_Location" EntitySet="Big_Location" />
+      <End Role="sLocation" EntitySet="sLocation" />
+    </AssociationSet>
+    <AssociationSet Name="fk_big_koord1" Association="bdBusModel.fk_big_koord1">
+      <End Role="sKoord_point" EntitySet="sKoord_point" />
+      <End Role="Big_Location" EntitySet="Big_Location" />
+    </AssociationSet>
+    <AssociationSet Name="fk_big_koord2" Association="bdBusModel.fk_big_koord2">
+      <End Role="sKoord_point" EntitySet="sKoord_point" />
+      <End Role="Big_Location" EntitySet="Big_Location" />
+    </AssociationSet>
+    <AssociationSet Name="FK_bus_marshrut" Association="bdBusModel.FK_bus_marshrut">
+      <End Role="sMarshruts" EntitySet="sMarshruts" />
+      <End Role="sBuses" EntitySet="sBuses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_location_poin1" Association="bdBusModel.FK_location_poin1">
+      <End Role="sKoord_point" EntitySet="sKoord_point" />
+      <End Role="sLocation" EntitySet="sLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_location_poin2" Association="bdBusModel.FK_location_poin2">
+      <End Role="sKoord_point" EntitySet="sKoord_point" />
+      <End Role="sLocation" EntitySet="sLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ostnovki_koord_point" Association="bdBusModel.FK_ostnovki_koord_point">
+      <End Role="sKoord_point" EntitySet="sKoord_point" />
+      <End Role="sOstnovkis" EntitySet="sOstnovkis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_location_name" Association="bdBusModel.FK_location_name">
+      <End Role="sLocation_Name" EntitySet="sLocation_Name" />
+      <End Role="sLocation" EntitySet="sLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MarhList_Location" Association="bdBusModel.FK_MarhList_Location">
+      <End Role="sLocation" EntitySet="sLocation" />
+      <End Role="sMarhList" EntitySet="sMarhList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MarhList_Marsh" Association="bdBusModel.FK_MarhList_Marsh">
+      <End Role="sMarshruts" EntitySet="sMarshruts" />
+      <End Role="sMarhList" EntitySet="sMarhList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ostnovki_marshruts" Association="bdBusModel.FK_ostnovki_marshruts">
+      <End Role="sMarshruts" EntitySet="sMarshruts" />
+      <End Role="sOstnovkis" EntitySet="sOstnovkis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_name_to_ost_ost_name" Association="bdBusModel.FK_name_to_ost_ost_name">
+      <End Role="sOst_name" EntitySet="sOst_name" />
+      <End Role="sName_to_ost" EntitySet="sName_to_ost" />
+    </AssociationSet>
+    <AssociationSet Name="FK_name_to_ost_ostnovki" Association="bdBusModel.FK_name_to_ost_ostnovki">
+      <End Role="sOstnovkis" EntitySet="sOstnovkis" />
+      <End Role="sName_to_ost" EntitySet="sName_to_ost" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="aBus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Longitude" Type="Double" Nullable="false" />
+    <Property Name="Latitude" Type="Double" Nullable="false" />
+    <Property Name="Speed" Type="Double" />
+    <Property Name="Azimuth" Type="Double" />
+    <Property Name="DateUpdate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Id_bus" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Big_Location">
+    <Key>
+      <PropertyRef Name="Id_big" />
+    </Key>
+    <Property Name="Id_big" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_koord1" Type="Int32" Nullable="false" />
+    <Property Name="id_koord2" Type="Int32" Nullable="false" />
+    <Property Name="length" Type="Double" Nullable="false" />
+    <NavigationProperty Name="sLocation" Relationship="bdBusModel.fk_big" FromRole="Big_Location" ToRole="sLocation" />
+    <NavigationProperty Name="sKoord_point" Relationship="bdBusModel.fk_big_koord1" FromRole="Big_Location" ToRole="sKoord_point" />
+    <NavigationProperty Name="sKoord_point1" Relationship="bdBusModel.fk_big_koord2" FromRole="Big_Location" ToRole="sKoord_point" />
+  </EntityType>
+  <EntityType Name="bz_day">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Days" Type="Int32" Nullable="false" />
+    <Property Name="Times" Type="Int32" Nullable="false" />
+    <Property Name="Location" Type="Int32" Nullable="false" />
+    <Property Name="Kol" Type="Int32" Nullable="false" />
+    <Property Name="Val" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bz_koeff">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Location" Type="Int32" Nullable="false" />
+    <Property Name="Koeff" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bz_week">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Days" Type="Int32" Nullable="false" />
+    <Property Name="Times" Type="Int32" Nullable="false" />
+    <Property Name="Location" Type="Int32" Nullable="false" />
+    <Property Name="Kol" Type="Int32" Nullable="false" />
+    <Property Name="Val" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bz_year">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Days" Type="Int32" Nullable="false" />
+    <Property Name="Times" Type="Int32" Nullable="false" />
+    <Property Name="Location" Type="Int32" Nullable="false" />
+    <Property Name="Kol" Type="Int32" Nullable="false" />
+    <Property Name="Val" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sBuses">
+    <Key>
+      <PropertyRef Name="nom" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_marsh" Type="Int32" />
+    <Property Name="nom" Type="Int32" Nullable="false" />
+    <Property Name="marka_ts" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="sMarshruts" Relationship="bdBusModel.FK_bus_marshrut" FromRole="sBuses" ToRole="sMarshruts" />
+  </EntityType>
+  <EntityType Name="sHolidays">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateHolidays" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="TypeDay" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sKoord_point">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Longitude" Type="Double" />
+    <Property Name="Latitude" Type="Double" />
+    <NavigationProperty Name="Big_Location" Relationship="bdBusModel.fk_big_koord1" FromRole="sKoord_point" ToRole="Big_Location" />
+    <NavigationProperty Name="Big_Location1" Relationship="bdBusModel.fk_big_koord2" FromRole="sKoord_point" ToRole="Big_Location" />
+    <NavigationProperty Name="sLocation" Relationship="bdBusModel.FK_location_poin1" FromRole="sKoord_point" ToRole="sLocation" />
+    <NavigationProperty Name="sLocation1" Relationship="bdBusModel.FK_location_poin2" FromRole="sKoord_point" ToRole="sLocation" />
+    <NavigationProperty Name="sOstnovkis" Relationship="bdBusModel.FK_ostnovki_koord_point" FromRole="sKoord_point" ToRole="sOstnovkis" />
+  </EntityType>
+  <EntityType Name="sLocation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id_point1" Type="Int32" Nullable="false" />
+    <Property Name="Id_point2" Type="Int32" Nullable="false" />
+    <Property Name="Id_name_location" Type="Int32" />
+    <Property Name="length" Type="Double" />
+    <Property Name="azimuth" Type="Double" />
+    <Property Name="id_big" Type="Int32" />
+    <NavigationProperty Name="Big_Location" Relationship="bdBusModel.fk_big" FromRole="sLocation" ToRole="Big_Location" />
+    <NavigationProperty Name="sKoord_point" Relationship="bdBusModel.FK_location_poin1" FromRole="sLocation" ToRole="sKoord_point" />
+    <NavigationProperty Name="sKoord_point1" Relationship="bdBusModel.FK_location_poin2" FromRole="sLocation" ToRole="sKoord_point" />
+    <NavigationProperty Name="sLocation_Name" Relationship="bdBusModel.FK_location_name" FromRole="sLocation" ToRole="sLocation_Name" />
+    <NavigationProperty Name="sMarhList" Relationship="bdBusModel.FK_MarhList_Location" FromRole="sLocation" ToRole="sMarhList" />
+  </EntityType>
+  <EntityType Name="sLocation_Name">
+    <Key>
+      <PropertyRef Name="Id_Location_Name" />
+    </Key>
+    <Property Name="Id_Location_Name" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Location_Name" Type="String" Nullable="false" MaxLength="100" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="sLocation" Relationship="bdBusModel.FK_location_name" FromRole="sLocation_Name" ToRole="sLocation" />
+  </EntityType>
+  <EntityType Name="sMarhList">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id_Location" Type="Int32" Nullable="false" />
+    <Property Name="Id_Marsh" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="sLocation" Relationship="bdBusModel.FK_MarhList_Location" FromRole="sMarhList" ToRole="sLocation" />
+    <NavigationProperty Name="sMarshruts" Relationship="bdBusModel.FK_MarhList_Marsh" FromRole="sMarhList" ToRole="sMarshruts" />
+  </EntityType>
+  <EntityType Name="sMarshruts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_marshrut" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="type" Type="Int32" />
+    <Property Name="num" Type="Int32" />
+    <NavigationProperty Name="sBuses" Relationship="bdBusModel.FK_bus_marshrut" FromRole="sMarshruts" ToRole="sBuses" />
+    <NavigationProperty Name="sMarhList" Relationship="bdBusModel.FK_MarhList_Marsh" FromRole="sMarshruts" ToRole="sMarhList" />
+    <NavigationProperty Name="sOstnovkis" Relationship="bdBusModel.FK_ostnovki_marshruts" FromRole="sMarshruts" ToRole="sOstnovkis" />
+  </EntityType>
+  <EntityType Name="sName_to_ost">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idName" Type="Int32" />
+    <Property Name="idOst" Type="Int32" />
+    <NavigationProperty Name="sOst_name" Relationship="bdBusModel.FK_name_to_ost_ost_name" FromRole="sName_to_ost" ToRole="sOst_name" />
+    <NavigationProperty Name="sOstnovkis" Relationship="bdBusModel.FK_name_to_ost_ostnovki" FromRole="sName_to_ost" ToRole="sOstnovkis" />
+  </EntityType>
+  <EntityType Name="sOst_name">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_ost" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="sName_to_ost" Relationship="bdBusModel.FK_name_to_ost_ost_name" FromRole="sOst_name" ToRole="sName_to_ost" />
+  </EntityType>
+  <EntityType Name="sOstnovkis">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idKoord" Type="Int32" />
+    <Property Name="idMarsh" Type="Int32" />
+    <Property Name="type" Type="Int32" />
+    <NavigationProperty Name="sKoord_point" Relationship="bdBusModel.FK_ostnovki_koord_point" FromRole="sOstnovkis" ToRole="sKoord_point" />
+    <NavigationProperty Name="sMarshruts" Relationship="bdBusModel.FK_ostnovki_marshruts" FromRole="sOstnovkis" ToRole="sMarshruts" />
+    <NavigationProperty Name="sName_to_ost" Relationship="bdBusModel.FK_name_to_ost_ostnovki" FromRole="sOstnovkis" ToRole="sName_to_ost" />
+  </EntityType>
+  <EntityType Name="Statist">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sIP" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="true" />
+    <Property Name="dDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="iCount" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_big">
+    <End Type="bdBusModel.Big_Location" Role="Big_Location" Multiplicity="0..1" />
+    <End Type="bdBusModel.sLocation" Role="sLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Big_Location">
+        <PropertyRef Name="Id_big" />
+      </Principal>
+      <Dependent Role="sLocation">
+        <PropertyRef Name="id_big" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_big_koord1">
+    <End Type="bdBusModel.sKoord_point" Role="sKoord_point" Multiplicity="1" />
+    <End Type="bdBusModel.Big_Location" Role="Big_Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKoord_point">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Big_Location">
+        <PropertyRef Name="id_koord1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_big_koord2">
+    <End Type="bdBusModel.sKoord_point" Role="sKoord_point" Multiplicity="1" />
+    <End Type="bdBusModel.Big_Location" Role="Big_Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKoord_point">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Big_Location">
+        <PropertyRef Name="id_koord2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_bus_marshrut">
+    <End Type="bdBusModel.sMarshruts" Role="sMarshruts" Multiplicity="0..1" />
+    <End Type="bdBusModel.sBuses" Role="sBuses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sMarshruts">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sBuses">
+        <PropertyRef Name="id_marsh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_location_poin1">
+    <End Type="bdBusModel.sKoord_point" Role="sKoord_point" Multiplicity="1" />
+    <End Type="bdBusModel.sLocation" Role="sLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKoord_point">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sLocation">
+        <PropertyRef Name="Id_point1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_location_poin2">
+    <End Type="bdBusModel.sKoord_point" Role="sKoord_point" Multiplicity="1" />
+    <End Type="bdBusModel.sLocation" Role="sLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKoord_point">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sLocation">
+        <PropertyRef Name="Id_point2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ostnovki_koord_point">
+    <End Type="bdBusModel.sKoord_point" Role="sKoord_point" Multiplicity="0..1" />
+    <End Type="bdBusModel.sOstnovkis" Role="sOstnovkis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKoord_point">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sOstnovkis">
+        <PropertyRef Name="idKoord" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_location_name">
+    <End Type="bdBusModel.sLocation_Name" Role="sLocation_Name" Multiplicity="0..1" />
+    <End Type="bdBusModel.sLocation" Role="sLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sLocation_Name">
+        <PropertyRef Name="Id_Location_Name" />
+      </Principal>
+      <Dependent Role="sLocation">
+        <PropertyRef Name="Id_name_location" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MarhList_Location">
+    <End Type="bdBusModel.sLocation" Role="sLocation" Multiplicity="1" />
+    <End Type="bdBusModel.sMarhList" Role="sMarhList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sLocation">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="sMarhList">
+        <PropertyRef Name="Id_Location" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MarhList_Marsh">
+    <End Type="bdBusModel.sMarshruts" Role="sMarshruts" Multiplicity="1" />
+    <End Type="bdBusModel.sMarhList" Role="sMarhList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sMarshruts">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sMarhList">
+        <PropertyRef Name="Id_Marsh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ostnovki_marshruts">
+    <End Type="bdBusModel.sMarshruts" Role="sMarshruts" Multiplicity="0..1" />
+    <End Type="bdBusModel.sOstnovkis" Role="sOstnovkis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sMarshruts">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sOstnovkis">
+        <PropertyRef Name="idMarsh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_name_to_ost_ost_name">
+    <End Type="bdBusModel.sOst_name" Role="sOst_name" Multiplicity="0..1" />
+    <End Type="bdBusModel.sName_to_ost" Role="sName_to_ost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sOst_name">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sName_to_ost">
+        <PropertyRef Name="idName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_name_to_ost_ostnovki">
+    <End Type="bdBusModel.sOstnovkis" Role="sOstnovkis" Multiplicity="0..1" />
+    <End Type="bdBusModel.sName_to_ost" Role="sName_to_ost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sOstnovkis">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sName_to_ost">
+        <PropertyRef Name="idOst" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

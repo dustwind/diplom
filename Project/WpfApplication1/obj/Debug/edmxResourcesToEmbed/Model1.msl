@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище bdBusModelContainer" CdmEntityContainer="bdBusEntities">
+    <EntitySetMapping Name="aBus">
+      <EntityTypeMapping TypeName="bdBusModel.aBus">
+        <MappingFragment StoreEntitySet="aBus">
+          <ScalarProperty Name="Id_bus" ColumnName="Id_bus" />
+          <ScalarProperty Name="DateUpdate" ColumnName="DateUpdate" />
+          <ScalarProperty Name="Azimuth" ColumnName="Azimuth" />
+          <ScalarProperty Name="Speed" ColumnName="Speed" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Big_Location">
+      <EntityTypeMapping TypeName="bdBusModel.Big_Location">
+        <MappingFragment StoreEntitySet="Big_Location">
+          <ScalarProperty Name="length" ColumnName="length" />
+          <ScalarProperty Name="id_koord2" ColumnName="id_koord2" />
+          <ScalarProperty Name="id_koord1" ColumnName="id_koord1" />
+          <ScalarProperty Name="Id_big" ColumnName="Id_big" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bz_day">
+      <EntityTypeMapping TypeName="bdBusModel.bz_day">
+        <MappingFragment StoreEntitySet="bz_day">
+          <ScalarProperty Name="Val" ColumnName="Val" />
+          <ScalarProperty Name="Kol" ColumnName="Kol" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Times" ColumnName="Times" />
+          <ScalarProperty Name="Days" ColumnName="Days" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bz_koeff">
+      <EntityTypeMapping TypeName="bdBusModel.bz_koeff">
+        <MappingFragment StoreEntitySet="bz_koeff">
+          <ScalarProperty Name="Koeff" ColumnName="Koeff" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bz_week">
+      <EntityTypeMapping TypeName="bdBusModel.bz_week">
+        <MappingFragment StoreEntitySet="bz_week">
+          <ScalarProperty Name="Val" ColumnName="Val" />
+          <ScalarProperty Name="Kol" ColumnName="Kol" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Times" ColumnName="Times" />
+          <ScalarProperty Name="Days" ColumnName="Days" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bz_year">
+      <EntityTypeMapping TypeName="bdBusModel.bz_year">
+        <MappingFragment StoreEntitySet="bz_year">
+          <ScalarProperty Name="Val" ColumnName="Val" />
+          <ScalarProperty Name="Kol" ColumnName="Kol" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Times" ColumnName="Times" />
+          <ScalarProperty Name="Days" ColumnName="Days" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sBuses">
+      <EntityTypeMapping TypeName="bdBusModel.sBuses">
+        <MappingFragment StoreEntitySet="sBuses">
+          <ScalarProperty Name="marka_ts" ColumnName="marka_ts" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="id_marsh" ColumnName="id_marsh" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sHolidays">
+      <EntityTypeMapping TypeName="bdBusModel.sHolidays">
+        <MappingFragment StoreEntitySet="sHolidays">
+          <ScalarProperty Name="TypeDay" ColumnName="TypeDay" />
+          <ScalarProperty Name="DateHolidays" ColumnName="DateHolidays" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sKoord_point">
+      <EntityTypeMapping TypeName="bdBusModel.sKoord_point">
+        <MappingFragment StoreEntitySet="sKoord_point">
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sLocation">
+      <EntityTypeMapping TypeName="bdBusModel.sLocation">
+        <MappingFragment StoreEntitySet="sLocation">
+          <ScalarProperty Name="id_big" ColumnName="id_big" />
+          <ScalarProperty Name="azimuth" ColumnName="azimuth" />
+          <ScalarProperty Name="length" ColumnName="length" />
+          <ScalarProperty Name="Id_name_location" ColumnName="Id_name_location" />
+          <ScalarProperty Name="Id_point2" ColumnName="Id_point2" />
+          <ScalarProperty Name="Id_point1" ColumnName="Id_point1" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sLocation_Name">
+      <EntityTypeMapping TypeName="bdBusModel.sLocation_Name">
+        <MappingFragment StoreEntitySet="sLocation_Name">
+          <ScalarProperty Name="Location_Name" ColumnName="Location_Name" />
+          <ScalarProperty Name="Id_Location_Name" ColumnName="Id_Location_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sMarhList">
+      <EntityTypeMapping TypeName="bdBusModel.sMarhList">
+        <MappingFragment StoreEntitySet="sMarhList">
+          <ScalarProperty Name="Id_Marsh" ColumnName="Id_Marsh" />
+          <ScalarProperty Name="Id_Location" ColumnName="Id_Location" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sMarshruts">
+      <EntityTypeMapping TypeName="bdBusModel.sMarshruts">
+        <MappingFragment StoreEntitySet="sMarshruts">
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="name_marshrut" ColumnName="name_marshrut" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sName_to_ost">
+      <EntityTypeMapping TypeName="bdBusModel.sName_to_ost">
+        <MappingFragment StoreEntitySet="sName_to_ost">
+          <ScalarProperty Name="idOst" ColumnName="idOst" />
+          <ScalarProperty Name="idName" ColumnName="idName" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sOst_name">
+      <EntityTypeMapping TypeName="bdBusModel.sOst_name">
+        <MappingFragment StoreEntitySet="sOst_name">
+          <ScalarProperty Name="name_ost" ColumnName="name_ost" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sOstnovkis">
+      <EntityTypeMapping TypeName="bdBusModel.sOstnovkis">
+        <MappingFragment StoreEntitySet="sOstnovkis">
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="idMarsh" ColumnName="idMarsh" />
+          <ScalarProperty Name="idKoord" ColumnName="idKoord" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Statist">
+      <EntityTypeMapping TypeName="bdBusModel.Statist">
+        <MappingFragment StoreEntitySet="Statist">
+          <ScalarProperty Name="iCount" ColumnName="iCount" />
+          <ScalarProperty Name="dDate" ColumnName="dDate" />
+          <ScalarProperty Name="sIP" ColumnName="sIP" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
